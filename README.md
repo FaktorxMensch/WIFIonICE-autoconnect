@@ -19,6 +19,7 @@ rm -rf WIFIonICE-autoconnect
 ```
 ## Steps for MacOS uninstall
 ```
+launchctl unload ~/Library/LaunchAgents/com.user.wifiloginscript.plist
 rm ~/.fxmdb/wifionice-autoconnect.sh
 rmdir ~/.fxmdb
 rm ~/Library/LaunchAgents/com.user.wifiloginscript.plist
