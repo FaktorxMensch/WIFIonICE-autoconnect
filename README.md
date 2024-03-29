@@ -2,7 +2,7 @@
 
 Automatically login to WIFIonICE when connected.
 
-## Steps for MacOS
+## Steps for MacOS Installation
 
 ```
 cd /tmp
@@ -17,6 +17,13 @@ launchctl load ~/Library/LaunchAgents/com.user.wifiloginscript.plist
 cd ..
 rm -rf WIFIonICE-autoconnect
 ```
+## Steps for MacOS uninstall
+```
+rm ~/.fxmdb/wifionice-autoconnect.sh
+rmdir ~/.fxmdb
+rm ~/Library/LaunchAgents/com.user.wifiloginscript.plist
+```
+
 
 ## Steps for Linux
 
