@@ -4,10 +4,15 @@ Automatically login to WIFIonICE when connected.
 
 ## Steps for MacOS
 
-1. move `wifionice-autoconnect.sh` somewhere and run `chmod +x FILEPATH`
-2. move `com.user.wifiloginscript.plist` to `~/Library/LaunchAgents/`
-3. `launchctl load ~/Library/LaunchAgents/com.user.wifiloginscript.plist`
-4. enjoy
+```
+chmod +x wifionice-autoconnect.sh
+mkdir ~/.fxmdb
+mv wifionice-autoconnect.sh ~/.fxmdb/
+mv com.user.wifiloginscript.plist ~/Library/LaunchAgents/
+launchctl load ~/Library/LaunchAgents/com.user.wifiloginscript.plist
+```
+
+rename YOUR_USERNAME to your username in ~/Library/LaunchAgents/com.user.wifiloginscript.plist
 
 ## Steps for Linux
 

@@ -6,7 +6,7 @@
     <string>com.user.wifiloginscript</string>
     <key>ProgramArguments</key>
     <array>
-        <string>/Users/YOUR_USERNAME/wifionice-autoconnect.sh</string>
+        <string>/Users/YOUR_USERNAME/.fxmdb/wifionice-autoconnect.sh</string>
     </array>
     <key>WatchPaths</key>
     <array>
